@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <servlet>
+        <!-- 类名 -->
+        <servlet-name>LoginServlet</servlet-name>
+        <!-- 所在的包 -->
+        <servlet-class>controller.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <!-- 访问的网址 -->
+        <url-pattern>/controller/LoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <!-- 类名 -->
+        <servlet-name>DeptServlet</servlet-name>
+        <!-- 所在的包 -->
+        <servlet-class>controller.DeptServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeptServlet</servlet-name>
+        <!-- 访问的网址 -->
+        <url-pattern>/controller/DeptServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <!-- 类名 -->
+        <servlet-name>CourseServlet</servlet-name>
+        <!-- 所在的包 -->
+        <servlet-class>controller.CourseServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CourseServlet</servlet-name>
+        <!-- 访问的网址 -->
+        <url-pattern>/controller/CourseServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <!-- 类名 -->
+        <servlet-name>ScheduleServlet</servlet-name>
+        <!-- 所在的包 -->
+        <servlet-class>controller.ScheduleServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ScheduleServlet</servlet-name>
+        <!-- 访问的网址 -->
+        <url-pattern>/controller/ScheduleServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <!-- 类名 -->
+        <servlet-name>StudentServlet</servlet-name>
+        <!-- 所在的包 -->
+        <servlet-class>controller.StudentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StudentServlet</servlet-name>
+        <!-- 访问的网址 -->
+        <url-pattern>/controller/StudentServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <!-- 类名 -->
+        <servlet-name>TeacherServlet</servlet-name>
+        <!-- 所在的包 -->
+        <servlet-class>controller.TeacherServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TeacherServlet</servlet-name>
+        <!-- 访问的网址 -->
+        <url-pattern>/controller/TeacherServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <!-- 类名 -->
+        <servlet-name>AddCourseServlet</servlet-name>
+        <!-- 所在的包 -->
+        <servlet-class>controller.AddCourseServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddCourseServlet</servlet-name>
+        <!-- 访问的网址 -->
+        <url-pattern>/controller/AddCourseServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <!-- 类名 -->
+        <servlet-name>DeleteCourseServlet</servlet-name>
+        <!-- 所在的包 -->
+        <servlet-class>controller.DeleteCourseServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteCourseServlet</servlet-name>
+        <!-- 访问的网址 -->
+        <url-pattern>/controller/DeleteCourseServlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>
